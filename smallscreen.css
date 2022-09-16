@@ -1,0 +1,184 @@
+html{
+    overflow-x: clip;
+    max-width: 100vw !important;
+}
+body{
+    overflow-x: hidden ;
+}
+
+section{
+    position: relative;
+    height: 100%;
+    max-height: fit-content;
+    padding: 0 50px 0 50px;
+    margin:  0 auto;
+}
+
+.section-anchor{
+    position: absolute;
+    top: -80px;
+    left: 0;
+}
+
+nav{
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left:0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 80px;
+    padding-top: 10px;
+    color: white;
+}
+
+#intro{
+    top: 100px;
+    left: 50%;
+    right: auto;
+    transform: translate(-50%,0);
+    margin: auto;
+
+}
+
+#iphone{
+    height: 515px;
+    width: 250px;
+    margin: auto;
+}
+#pfp{
+    height: 100%;
+    width: auto;
+}
+
+#landing{
+    height: 100% !important;
+    max-height: 100vw;
+    background-image: url('images/Backgrounds/Profile1B.png');
+    background-size: cover;
+}
+
+#landing--text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    mix-blend-mode:screen;
+    text-align: center;
+}
+#name{
+    font-size: 300%;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+}
+.social-icon{
+    display: block;
+    height: 30px;
+    width: auto;
+    padding: 15% 0;
+    background-color: rgba(0, 0, 0, 0.384);
+}
+.social-icon:hover{
+    opacity: 70%;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#social-icons{
+    margin-top: 0%;
+}
+
+.absoluteCenter{
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-align: center;
+    position: absolute;
+}
+#about h1{
+    font-size: 400%;
+    color: rgb(48, 48, 48);
+    z-index: -1;
+}
+
+#about{
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#cloudWrapper{
+    margin: auto;
+}
+
+.tagcloud--item:nth-child(-n+3){
+    font-size: 150%;
+}
+
+
+#pythonCode{
+    font-size: 100%;
+    margin: auto;
+
+}
+
+.console{
+    width: 40vw;
+    display: none;
+}
+
+.contentContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.contentContainer:nth-child(2n-1){
+    flex-direction: column;
+    margin: auto;
+}
+
+.contentContainer img{
+    height: 400px;
+    width: 400px;
+}
+
+
+.contentContainer:nth-child(2n-1) .project-text,.contentContainer:nth-child(2n-1) .project-title{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100%;
+}
+
+.contentContainer img{
+    height: 70vw;
+    width: 70vw;
+    margin: auto;
+}
+
+.project-text{
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+}
+
+.project-title{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+}
+
+
+.form-container{
+    margin: auto;
+    width: 100%;
+}
+

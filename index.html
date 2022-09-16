@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kaleba Keitshokile | Home</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="iphone.css">
+        <link rel="stylesheet" href="slides.css">
+        <link rel="stylesheet" media="screen and (max-width: 1000px)" href="smallscreen.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/TagCloud@2.2.0/dist/TagCloud.min.js"></script>
+        
+    </head>
+    <body>
+        <div id="dialog-container">
+            <div class="dialog-box">
+              <div class="background-blur"></div>
+              <div class="header">
+                <div class="background-blur"></div>
+                <div class="contents">
+                <div class="left">
+                  <i class="far fa-comment"></i> iMessage
+                </div>
+                <div class="right">
+                  Now
+                </div>
+                </div>
+              </div>
+              <div class="contents main-content">
+                <strong>
+                    Kaleba K
+                </strong>
+                <br/>
+                The next section is already done. You can go there if you don't want to watch this. &#128077;
+              </div>
+            </div>
+        </div>
+        <nav id="navBar" class="hide">
+            <ul class="row">
+                <li><a href="#landing">Top</a></li>
+                <li><a href="#about-anchor">About Me</a></li>
+                <li><a href="#projects-anchor">Projects</a></li>
+                <li><a href="#contact-anchor">Contact</a></li>
+            </ul>
+        </nav>
+        <section id="intro" class="no-selection">
+            <div id="iphone">
+                <div id="notch"></div>
+                <div id="screen">
+                    <div id="chatBox" class="hideScroll">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="landing" class="hide" style="position: relative;"> 
+            <div id="landing--text" class="hide no-selection">
+                <h1 id="name" >Kaleba Keitshokile</h1>
+                <p>Engineering | Computer Science | Robotics</p>
+            </div>
+        </section>
+        <section id='about' class="row">
+            <div id="about-anchor" class="section-anchor"></div>
+            <div class="column">
+                <div class="pyContainer">
+                    <pre>
+                        <code id="pythonCode"></code>
+                    </pre>
+                </div>
+                <br>
+                <p  class="console hide">
+                    I am from Botswana and study MSc Computer Science at The University of Liverpool. 
+                    I enjoy gaming, golf, drawing and being outdoors. 
+                    I also speak English, Setswana and French. 
+                    I also really enjoy developing this website.</p> 
+            </div>
+            <h1 id="abouth1" class="sectionTitle hide absoluteCenter no-selection">A<br>B<br>O<br>U<br>T<br> <br>M<br>E<br></h1>
+            <div id="cloudWrapper" class="hide no-selection">
+                <span class="cloud"></span>
+            </div>
+        </section>
+        <section id="projects" class="">
+            <div id="projects-anchor" class="section-anchor"></div>
+            <div class="contentContainer">
+                <img src="images/Project_Images/Pathfinding.png" alt="">
+                <div class="image-text">
+                    <h1 class="project-title">Route Planning For Autonomous Mobile Robots</h1>
+                    <p class="project-text">
+                        A program to compare the A* and D* pathfinding algortithms. I did this for my Bachelor's in Engineering and 
+                        have since improved the code. The main requirement is to have Python and PyGame installed. The algorithms can be
+                        used 
+                         <a href="http://kalebakeitshokile.co.uk/words"></a>
+                    </p>
+                </div>
+            </div>
+            <div class="contentContainer">
+                    <img src="images/Project_Images/Dictionary1.png" alt="">
+                    <div class="image-text">
+                        <h1 class="project-title">Dictionary API</h1>
+                        <p class="project-text">
+                            A Free to use API hosting over 100,000 English words. 
+                            I built this to power my very first Javascript project, a hangman game.
+                            I plan on using it for more interesting projects in the future. An interface is 
+                            available to interact with the API on <a href="http://kalebakeitshokile.co.uk/words">My Website.</a>
+                        </p>
+                    </div>
+            </div>
+            <div class="contentContainer">
+                <img src="images/Project_Images/Drone1.png" alt="">
+                <div class="image-text">
+                    <h1 class="project-title">AI Drone</h1>
+                    <p class="project-text">
+                        Another project related to robotics and coding, this time with a drone. It
+                        uses a machine learning model trained on 1000 images of my face and 1000 images of other people's faces 
+                        and some misclassified haar cascade face detections. The main modules used in the project are TensorFlow, OpenCV
+                        and a Python API for the drone itself.
+                         <a href="http://kalebakeitshokile.co.uk/words"></a>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <div id="contact-anchor" class="section-anchor"></div>
+            <div class="form-container">
+                <h1>Get In Touch</h1>
+                <form action="contact.php" method="post">
+                    <label for="name">Name:</label><br>
+                    <input name="name" type="text" required placeholder="Your Name..."><br>
+                    <label for="email">Email:</label><br>
+                    <input type="text" name="email" id="email" required placeholder="Your Email Address..."><br>
+                    <label for="message">Message:</label><br>
+                    <textarea type="text" name="message" id="message" required placeholder="Enter A Message..."></textarea>
+                    <input type="submit" name="" id="" value="Send!">
+
+                </form>
+            </div>
+            <div id="social-icons">
+                <ul class="social">
+                    <li><a href="https://github.com/kalebakeits" target="_blank" title="&copy;Github Logo https://github.com/kalebakeits">
+                      <img src="Images/Icons/GitHub_icon.png" alt="" class="social-icon"></a></li>
+                    <li><a href="https://www.instagram.com/kaleba.k/" target="_blank" title="&copy;Instagram Logo https://www.instagram.com/kaleba.k/">
+                      <img src="Images/Icons/Instagram_icon.png" alt="" class = "social-icon" title=""></a></li>
+                      <li><a href="https://www.linkedin.com/in/kaleba-keitshokile-b5a174196/" target="_blank" title="&copy;LinkedIn Logo https://www.linkedin.com/in/kaleba-keitshokile-b5a174196/">
+                        <img src="Images/Icons/LinkedIn_icon.png" alt="" class="social-icon"></a></li>
+                      <li><a href="https://twitter.com/kalebakaleba" target="_blank" title="&copy;Twitter Logo https://twitter.com/kalebakaleba">
+                        <img src="Images/Icons/Twitter_icon.png" alt="" class="social-icon"></a></li>
+                        <li><a href="mailto:kalebahelp@gmail.com" title="Compose an Email to kalebahelp@gmail.com">
+                            <img src="Images/Icons/Mail_icon.png" alt="" class="social-icon"></a></li>
+                        </ul>
+            </div>
+        </section>
+        <script src="data.js" type="text/javascript"></script>
+        <script src="main.js" type="text/javascript"></script>
+        <footer>
+            
+        </footer>
+    </body>
+</html>
