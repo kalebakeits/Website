@@ -2,9 +2,9 @@ const conversation = [
     'Hey, Thanks for visiting my website.', 
     'Hey, who is this?', 
     "It's, me! Hold on, let me add a picture.", 
-    "Oh! Hello. You might want to add you name for people who don't know you.",
+    "Oh! Hello. You might want to add your name for people who don't know you.",
     "That's a good suggestion! I'll do it now. Thanks",
-    "That's looks better. Is there more?",
+    "That looks better. Is there more?",
     "Yea! Just added some links",
     "That's so cool. You have to show me how to do this.",
     "Well I'm writing some code now but I don't know if you can keep up?",
@@ -21,7 +21,7 @@ class Kaleba:
 
         self.programming_languages = [
             "Python",
-            "JavaSript",
+            "JavaScript",
             "PHP",
             "Arduino",
             "Matlab",
@@ -93,8 +93,8 @@ async function gotoSection(section){
 
 }
 
-function runCode(){
-    
+function runCode() {
+    document.getElementById('code').style.display = 'block';
 }
 actions = {
     "It's, me! Hold on, let me add a picture.": {
